@@ -1,10 +1,11 @@
 import { Grid } from '@material-ui/core'
 import React from 'react'
+import Navbar from './components/Navbar/Navbar'
 
 const App = () => {
   return (
     <div>
-      Navbar
+      <Navbar />
       <Grid container >
         <Grid item sm={2} xs={2} >
           Leftbar
